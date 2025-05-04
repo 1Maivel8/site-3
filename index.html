@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+     <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button><!------navbar-toggler------->
+
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <img src="images/logo.png" alt="" width="60" >
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="javascript:void(0)">Learn Languages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="javascript:void(0)">Language Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="javascript:void(0)">Start Now</a>
+              </li>
+            </ul><!-------navbar-nav------------>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button type="button" class="btn btn-primary w-75" data-bs-toggle="modal" data-bs-target="#myModal">Register Now</button>
+              
+              <!-- The Modal -->
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                   <!--Modal Header --> 
+                    <div class="modal-header">
+                      <h4 class="modal-title">User Data</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div><!-------modal-header-->
+
+                    <div class="mb-3 mt-3">
+                        <label for="email" class="form-label p-2">Name:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Name" name="Name">
+                      </div><!-----mb-3-------->
+              
+                        <div class="mb-3 mt-3">
+                        <label for="email" class="form-label p-2">Your Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="Email">
+                        </div><!---mb-3-->
+                        <div class="mb-3 mt-3">
+                        <label for="email" class="form-label p-2">Phone Number:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Phone Number" name="Number">
+                        </div><!--mb-3-->
+                  
+                        <div class="form-check">
+                            <p>What language do you want to learn?</p>
+                            <input type="radio" class="form-check-input ms-3" id="radio1" name="optradio" value="option1" checked>Arabic
+                            <label class="form-check-label" for="radio1"></label>
+                          </div><!---form-check-->
+                          <div class="form-check">
+                            <input type="radio" class="form-check-input ms-3" id="radio1" name="optradio" value="option1" checked>English
+                            <label class="form-check-label" for="radio1"></label>
+                          </div><!---form-check-->
+                          <div class="form-check">
+                            <input type="radio" class="form-check-input ms-3" id="radio2" name="optradio" value="option2">French
+                            <label class="form-check-label" for="radio2"></label>
+                          </div><!---form-check-->
+                          <div class="form-check">
+                            <input type="radio" class="form-check-input ms-3" id="radio2" name="optradio" value="option2">Chinese
+                            <label class="form-check-label" for="radio2"></label>
+                          </div><!---form-check-->
+                        
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Saved Successfully</button>
+                    </div><!---modal-footer-->
+              
+              </div><!-------modal-content------->
+
+            <div><!-----modal-dialog------>
+        
+            </div><!------modal--> 
+          </div><!----collapse-->
+        </div><!--------container-fluid-->
+      </nav><!-------navbar----->
+      <!--------------------------------------------------------------header----------------------------------------------------------->
+
+      <div class="container-fluid p-0 mt-4  ">
+        <div class="overlay"></div>
+
+        <img class="img-Map2 w-100 " style="height: 600px;"   src="images/people.jpg"  alt="">
+        <!-- <p class="Map-Word ">Open the doors to the world by learning a new language</p> -->
+        <p class="Map-Word container-xl">Learn a language, explore the world</p>
+        <button type="button container-xl " class="btn1 btn-outline-success">Learn Now</button>
+        <div class="container-icon">
+        <i class="fa-solid fa-language fa-lg icon1"></i>
+        <i class="fa-solid fa-earth-americas icon1"></i>
+        <i class="fa-solid fa-plane icon1"></i>
+      </div><!---container-icon--->
+      </div><!---container-fluid-->
+
+      <!-- <p class="h1 ms-3 mt-3 d-flex justify-content-center">The most popular places to learn languages</p> -->
+
+      <p class="h4 ms-3 mt-5 d-flex justify-content-center">The most popular places to learn languages</p>
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div><!--carousel-indicators--->
+      
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Al-Azhar2.jpg"  alt="Los Angeles" class="d-block mx-auto container-xl Azhar">
+            <p class="inner container-xl">جامع الأزهر</p>
+            <span class="inner2 container-xl"> لتعليم اللغة العربية</span>
+          </div><!--carousel-inner--->
+          <div class="carousel-item">
+            <img src="images/English.jpg" alt="Chicago" class="d-block mx-auto container-xl English ">
+            <p class="inner container-xl">University of Cambridge</p>
+            <span class="inner2 container-xl"> For Teaching English</span>
+          </div><!---carousel-item--->
+          <div class="carousel-item">
+            <img src="images/paris.jpg"  alt="New York" class="d-block mx-auto container-xl paris ">
+            <p class="inner container-xl">Le Centre Culturel Français</p>
+            <span class="inner2 container-xl">Pour l'enseignement du français</span>
+          </div><!----carousel-item-->
+          <div class="carousel-item">
+            <img src="images/China.jpg"  alt="New York" class="d-block mx-auto container-xl china ">
+            <p class="inner container-xl">孔子学院</p>
+            <span class="inner2 container-xl">汉语教学</span>
+          </div><!---carousel-item-->
+        </div><!----carousel slide-->
+        <!--------------------------------------Carousel slide-------------------------------------------------------->
+      
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      
+      </div>
+      <div class="image-person d-flex  gap-5"> 
+        <div class="person">
+        <img class="img-fluid" src="images/Formal.jpg" alt="New York">
+        <p class="container-xl p-person">Languages opened doors for you</p>
+
+        <button type="button" class="btn btn-success btn-person">Join us</button>
+
+      </div><!-----person------>
+
+        <div class="person">
+        <img class="img-fluid" src="images/Teacher.jpg" alt="New York">
+        <p class="container-xl p-person">Professional Language Teacher</p>
+
+        <button type="button" class="btn btn-success btn-person">Teach</button>
+
+      </div><!----person-->
+
+        <div class="person">
+        <img class="img-fluid" src="images/Translator.jpg" alt="New York">
+        <p class="container-xl p-person">You can work as a translator</p>
+        <button type="button" class="btn btn-success btn-person">Translate</button>
+
+
+   
+      </div><!-----person-->
+      </div><!----image-person--> 
+      <!----------------------------------------------------image-person-------------------------------------------->
+
+      <div class="container-fluid p-0 mt-4  ">
+        <img class=" image-map w-100" style="height: 600px;" src="images/Map5.jpg" alt="">
+        <div id="accordion">
+
+          <div class="card bg-transparent text-white">
+            <div class="card-header">
+              <a class="btn text-white" data-bs-toggle="collapse" href="#collapseOne">
+اللغة العربية               </a>
+            </div><!---card-->
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+              <div class="card-body">
+                اللغة العربية هي لغة القرآن الكريم، وهي من أقدم وأجمل اللغات في العالم. تعلمها لا يقتصر فقط على فهم النصوص الدينية، بل يمتد ليشمل الأدب العربي الغني والتاريخ العميق، مما يجعلها لغة ذات أهمية ثقافية ودينية كبيرة              </div>
+            </div><!------collapse show-->
+          </div><!------accordion-->
+   
+        
+          <div class="card bg-transparent text-white">
+            <div class="card-header">
+              <a class="collapsed btn text-white" data-bs-toggle="collapse" href="#collapseTwo">
+                English language              </a>
+            </div><!----card-header-->
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                English is an important global language in communication, education, and business. Learning it opens many opportunities and enhances interaction with different cultures              </div>
+            </div><!---card-body-->
+          </div><!----collapse-->
+        
+          <div class="card bg-transparent text-white">
+            <div class="card-header">
+              <a class="collapsed btn text-white" data-bs-toggle="collapse" href="#collapseThree">
+                La langue française             </a>
+            </div><!----card-header-->
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+
+                La langue française est importante dans la culture, la diplomatie et les affaires. Elle ouvre des opportunités professionnelles et éducatives dans de nombreux pays et organisations internationales.              </div>
+            </div><!----card-body-->
+          <div class="card bg-transparent text-white">
+            <div class="card-header">
+              <a class="collapsed btn text-white" data-bs-toggle="collapse" href="#collapseFour">
+                中文         </a>
+            </div><!----card-header-->
+            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+
+                中文是世界上使用最广泛的语言之一，是了解最古老和最丰富文化的钥匙。学习中文将在商业、科技和教育等领域为你带来巨大机会，特别是在中国经济快速发展的背景下         </div>
+            </div><!----card-body-->
+        
+      
+          </div><!------collapse-->
+        
+        </div><!---container-fluid-->
+        <!----------------------------------------------------collapse------------------------------------------------------------>
+    
+</div>
+<div class="middle">
+<p class="h5 mt-5 fs-3">Inspiring You to Start Learning</p>
+</div><!---middle-->
+<div class="container d-flex  gap-5">
+  <div class="image-hover">
+<div class="card " style="width:400px">
+  <img class="img-fluid" src="images/Laptop.jpg" alt="Card image">
+  <div class="card-body">
+    <!-- <h4 class="card-title">John Doe</h4> -->
+    <p class="card-text">The computer is your partner in learning languages, start now</p>
+    <a href="#" class="btn btn-primary">Begin Learning</a>
+  </div><!---image-hover-->
+  </div><!----card-->
+  </div><!----card-body-->
+  <div class="image-hover">
+<div class="card" style="width:400px">
+  <img class="img-fluid" src="images/Books.jpg" alt="Card image">
+  <div class="card-body">
+    <!-- <h4 class="card-title">John Doe</h4> -->
+    <p class="card-text">Language is the key to every new book and every new world </p>
+    <a href="#" class="btn btn-primary">Explore Languages</a>
+  </div><!----image-hover-->
+  </div><!----card-->
+</div><!----card-body-->
+<div class="image-hover">
+<div class="card" style="width:400px">
+  <img class="img-fluid" src="images/Certificate.jpg" alt="Card image">
+  <div class="card-body">
+    <!-- <h4 class="card-title">John Doe</h4> -->
+    <p class="card-text">Upon completing the course, receive a certificate to acknowledge your new skills</p>
+    <a href="#" class="btn btn-primary">Earn Your Certificate</a>
+   
+  
+  </div><!-----image-hover-->
+  </div><!----card-->
+</div><!-----card-body-->
+</div><!-----container-->
+<!---------------------------------------------------middle---------------------------------------------------->
+
+<div class="photos">
+ <div class="container-progress">
+  <span class="text-white">اللغة العربية هي واحدة من أقدم وأغنى اللغات في العالم، وتُعد لُغة الضاد، لأنها اللغة الوحيدة التي تحتوي على هذا الحرف الفريد. هي لُغة القرآن الكريم، وتُستخدم كلغة رسمية في أكثر من 20 دولة، ويتحدث بها أكثر من 400 مليون شخص حول العالم.</span>
+  <h6 class="mt-4 fs-3">عدد المتعلمين حتى الآن</h6>
+  <div class="progress w-50 mt-3">
+    <div class="progress-bar"  style="width:70%">70%</div>
+  </div><!----progress-->
+</div><!---container-progress--->
+
+  <div class="photo-flags">
+
+  <img class="img-fluid img-flag" src="images/Egypt.gif" alt="New York">
+  <img class="img-fluid img-flag flag2" src="images/Egypt2.jpg" alt="New York">
+
+
+</div><!--photo-flags---->
+</div><!----photos-->
+
+<div class="photos">
+  <div class="container-progress">
+  <span class="text-white">English is a widely spoken global language used in education, work, and travel. Learning it opens new opportunities for communication and study</span>
+
+
+  <h6 class="mt-4 fs-3">Total number of learners</h6>
+  <div class="progress w-50 mt-3">
+    <div class="progress-bar"  style="width:90%">90%</div>
+  </div><!----progress-->
+ 
+</div><!----container-progress-->
+  <div class="photo-flags">
+
+  <img class="img-fluid img-flag" src="images/America.gif" alt="New York">
+  <img class="img-fluid img-flag flag2" src="images/America3.jpg" alt="New York">
+
+</div><!---photo-flags-->
+</div><!----photos-->
+
+<div class="photos">
+  <div class="container-progress">
+  <span class="text-white">Le français est une langue élégante et internationale, utilisée dans l’art, les voyages et l’éducation. L’apprendre ouvre de nouveaux horizons culturels.
+
+  </span>
+  <h6 class="mt-4 fs-3">Apprenants jusqu'à présent</h6>
+  <div class="progress w-50 mt-3">
+    <div class="progress-bar bg-danger" style="width:30%">30%</div>
+  </div><!---progress-->
+ 
+</div><!----container-progress-->
+
+  <div class="photo-flags">
+
+  <img class="img-fluid img-flag" src="images/France.gif" alt="New York">
+  <img class="img-fluid img-flag flag2" src="images/Paris2.jpg" alt="New York">
+
+
+
+</div><!-----photo-flags-->
+</div><!----photos-->
+
+<div class="photos">
+  <div class="container-progress">
+
+  <span class="text-white">
+    
+中文是世界上最古老、最广泛使用的语言之一，有超过十亿人使用。它有独特的书写系统，使用字符而非字母。学习中文能够帮助你理解丰富的文化，并为全球的经济和教育机会打开大门。</span>
+<h6 class="mt-4 fs-3">到目前为止的学员</h6>
+<div class="progress w-50 mt-3">
+  <div class="progress-bar bg-danger" style="width:30%">30%</div>
+</div><!----progress-->
+
+</div><!---container-progress-->
+
+<div class="photo-flags">
+
+  <img class="img-fluid img-flag" src="images/China.gif" alt="New York">
+  <img class="img-fluid img-flag flag2" src="images/china2.jpg" alt="New York">
+</div><!----photo-flags-->
+
+</div><!-----photos-->
+
+<div class="footer p-5 text-white rounded">
+
+  <h1 class="footer-word">Languages connect us</h1>
+  <p class="footer-p text-black">It’s time to embark on an endless learning journey</p>
+ 
+  <img class="footer-image" src="images/Global.gif" alt="">
+  <div class="text"></div>
+  <div class="contact">
+  <p class="p-contact">Contact us for any inquiries</p>
+  <button type="button " class="btn  btn-primary me-4 contact-btn">contact Us</button>
+</div><!-----contact-->
+</div><!----footer-->
+  <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
